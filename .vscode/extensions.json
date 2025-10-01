@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "catppuccin.catppuccin-vsc",
+        "catppuccin.catppuccin-vsc-icons",
+        "formulahendry.code-runner",
+        "dbaeumer.vscode-eslint",
+        "tamasfe.even-better-toml",
+        "miguelsolorio.fluent-icons",
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "charliermarsh.ruff",
+        "bradlc.vscode-tailwindcss",
+        "redhat.vscode-yaml",
+        "vscodevim.vim"
+    ]
+}
