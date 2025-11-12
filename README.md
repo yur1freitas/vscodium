@@ -17,22 +17,51 @@ Todas as minhas configurações e extensões que uso no [VSCodium][VSCODIUM_SITE
 
 ## 📦 Extensões
 
+### Default
+
 | **Nome**                                                                                         | **Categoria**         |
 | ------------------------------------------------------------------------------------------------ | --------------------- |
 | [Catppuccin](https://open-vsx.org/vscode/item?itemName=Catppuccin.catppuccin-vsc)                | Themes                |
 | [Catppuccin Icons](https://open-vsx.org/vscode/item?itemName=Catppuccin.catppuccin-vsc-icons)    | Themes                |
-| [Fluent Icons](https://open-vsx.org/vscode/item?itemName=miguelsolorio.fluent-icons)             | Themes                |
+| [Carbon Product Icons](https://open-vsx.org/extension/antfu/icons-carbon)                        | Themes                |
+
+
+### JavaScript
+
+| **Nome**                                                                                         | **Categoria**         |
+| ------------------------------------------------------------------------------------------------ | --------------------- |
+| [Catppuccin](https://open-vsx.org/vscode/item?itemName=Catppuccin.catppuccin-vsc)                | Themes                |
+| [Catppuccin Icons](https://open-vsx.org/vscode/item?itemName=Catppuccin.catppuccin-vsc-icons)    | Themes                |
+| [Carbon Product Icons](https://open-vsx.org/extension/antfu/icons-carbon)                        | Themes                |
 | [Prettier](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode)                     | Formatters            |
 | [ESLint](https://open-vsx.org/vscode/item?itemName=dbaeumer.vscode-eslint)                       | Linters               |
-| [Ruff](https://open-vsx.org/vscode/item?itemName=charliermarsh.ruff)                             | Formatters            |
-| [Python](https://open-vsx.org/vscode/item?itemName=ms-python.python)                             | Programming Languages |
-| [Python Debugger](https://open-vsx.org/vscode/item?itemName=ms-python.debugpy)                   | Debuggers             |
-| [YAML](redhat.vscode-yaml)                                                                       | Programming Languages |
-| [Even Better TOML](https://open-vsx.org/vscode/item?itemName=tamasfe.even-better-toml)           | Programming Languages |
+| [Pretty Typescript Errors](https://open-vsx.org/vscode/item?itemName=yoavbls.pretty-ts-errors)   | Visualization         |
+| [YAML](https://open-vsx.org/vscode/item?itemName=redhat.vscode-yaml)                             | Programming Languages |
+| [Docker DX](https://open-vsx.org/vscode/item?itemName=docker.docker)                             | Programming Languages |
 | [Tailwind CSS IntelliSense](https://open-vsx.org/vscode/item?itemName=bradlc.vscode-tailwindcss) | Linters               |
 | [Code Runner](https://open-vsx.org/vscode/item?itemName=dbaeumer.vscode-eslint)                  | Other                 |
-| [Vim](https://open-vsx.org/vscode/item?itemName=vscodevim.vim)                                   | Keymaps               |
+| [Project Manager](https://open-vsx.org/vscode/item?itemName=alefragnani.project-manager)         | Other                 |
+
+### Python
+
+| **Nome**                                                                                         | **Categoria**         |
+| ------------------------------------------------------------------------------------------------ | --------------------- |
+| [Catppuccin](https://open-vsx.org/vscode/item?itemName=Catppuccin.catppuccin-vsc)                | Themes                |
+| [Catppuccin Icons](https://open-vsx.org/vscode/item?itemName=Catppuccin.catppuccin-vsc-icons)    | Themes                |
+| [Carbon Product Icons](https://open-vsx.org/extension/antfu/icons-carbon)                        | Themes                |
+| [Ruff](https://open-vsx.org/vscode/item?itemName=charliermarsh.ruff)                             | Formatters            |
+| [Dprint Code Formatter](https://open-vsx.org/vscode/item?itemName=dprint.dprint)                 | Formatters            |
+| [Python](https://open-vsx.org/vscode/item?itemName=ms-python.python)                             | Programming Languages |
+| [Python Debugger](https://open-vsx.org/vscode/item?itemName=ms-python.debugpy)                   | Debuggers             |
+| [Python Environments](https://open-vsx.org/vscode/item?itemName=ms-python.vscode-python-envs)    | Other                 |
+| [BasedPyright](https://open-vsx.org/vscode/item?itemName=detachhead.basedpyright)                | Programming Languages |
+| [Even Better TOML](https://open-vsx.org/vscode/item?itemName=tamasfe.even-better-toml)           | Programming Languages |
+| [YAML](https://open-vsx.org/vscode/item?itemName=redhat.vscode-yaml)                             | Programming Languages |
+| [Docker DX](https://open-vsx.org/vscode/item?itemName=docker.docker)                             | Programming Languages |
+| [Better Jinja](https://open-vsx.org/vscode/item?itemName=samuelcolvin.jinjahtml)                 | Programming Languages |
+| [Edit CSV](https://open-vsx.org/vscode/item?itemName=janisdd.vscode-edit-csv)                    | Other                 |
+| [Project Manager](https://open-vsx.org/vscode/item?itemName=alefragnani.project-manager)         | Other                 |
 
 ## 📖 Fontes
 
-A fonte que uso no VSCodium é a [Fira Code](https://github.com/tonsky/FiraCode) para código e a [Fira Code Nerd Font](https://www.nerdfonts.com/font-downloads) para o terminal
+A fonte que uso no VSCodium é a [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) para código e a [JetBrains Mono Nerd Font](https://www.nerdfonts.com/font-downloads) para o terminal

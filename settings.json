@@ -1,0 +1,136 @@
+{
+    // -> Interface
+    "editor.tabSize": 4,
+    "editor.rulers": [ 80, 120 ],
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "wordWrapColumn",
+    "explorer.compactFolders": false,
+
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "gutter",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.guides.indentation": false,
+
+    "workbench.startupEditor": "none",
+    "workbench.panel.showLabels": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "top",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+
+    "workbench.layoutControl.enabled": false,
+    "window.customTitleBarVisibility": "auto",
+
+    "window.commandCenter": false,
+    "window.titleSeparator": " > ",
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+
+    "window.newWindowDimensions": "fullscreen",
+    "window.menuBarVisibility": "toggle",
+
+    "breadcrumbs.enabled": false,
+
+    // Recommended for Hyprland
+    "window.titleBarStyle": "native",
+
+    // -> Scroll
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 4,
+
+    // -> Cursor
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 15,
+    "editor.cursorSurroundingLinesStyle": "default",
+ 
+    // -> Line Height
+    "editor.lineHeight": 24,
+    "terminal.integrated.lineHeight": 1,
+
+    // -> Font
+    "editor.fontSize": 16,
+    "editor.inlayHints.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.inlayHints.fontFamily": "JetBrains Mono",
+    "editor.inlineSuggest.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "terminal.integrated.fontLigatures.enabled": true,
+
+    // -> Theme
+    "workbench.colorTheme": "Catppuccin Mocha",
+    
+    // -> Icons
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.iconTheme": "catppuccin-mocha",
+
+    "catppuccin.accentColor": "mauve",
+    "catppuccin.italicComments": false,
+    "catppuccin.italicKeywords": false,
+    "catppuccin-noctis-icons.hidesExplorerArrows": false,
+
+    "catppuccin-icons.associations.folders": {
+        "static": "folder_assets",
+        "raw": "folder_components",
+        "models": "folder_packages",
+        "processed": "folder_workflows"
+    },
+
+    // -> Terminal
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/app/bin/host-spawn",
+            "args": [ "bash" ]
+        },
+        "fish": {
+            "path": "/app/bin/host-spawn",
+            "args": [ "fish" ]
+        }
+    },
+
+    // -> Formatter
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "never"
+    },
+
+    "json.format.keepLines": true,
+
+    // -> Files Exclude
+    "files.exclude": {
+        "**/.turbo": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true
+    },
+
+    // -> Files Nesting
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        // License and Readme
+        "LICENSE": "README.md",
+
+        // Others
+        ".env": ".env.*",
+        ".gitignore": ".dockerignore"
+    }
+}
+ 
